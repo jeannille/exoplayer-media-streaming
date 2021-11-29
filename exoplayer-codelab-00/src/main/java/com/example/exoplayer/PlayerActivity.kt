@@ -31,9 +31,9 @@ class PlayerActivity : AppCompatActivity() {
 
     private var player: SimpleExoPlayer? = null
 
-    private var playWhenReady = true //play/pause using playWhenReady
-    private var currentWindow = 0// current window index using currentPosition
-    private var playbackPosition = 0L //current playback position using currentPosition
+    private var playWhenReady = true
+    private var currentWindow = 0
+    private var playbackPosition = 0L
 
     //obtain reference to the view tree from activity_player xml file
     //lazy(...) - Koitlin delegate for lazy initializing a value for
